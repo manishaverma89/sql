@@ -1,5 +1,5 @@
 <?php
-echo "Welcome!!we're creating a Mysql Database using PHP<br><br>";
+echo "Welcome!we're creating a Mysql Database using PHP<br><br>";
 
 // Ways to connect to a MySql Database
 // 1.MySqli  Extension 
