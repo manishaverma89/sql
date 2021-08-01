@@ -29,15 +29,17 @@ if (!$conn){
 // }
 
 
-$sql = "CREATE DATABASE manishadb_testing1";
+$sql = "CREATE DATABASE manishadb_testing2";
 $result = mysqli_query($conn,$sql);
+
+// check for the databse creation success
 
 if( $result){
     echo "Database Created Successfully";
 
 }
 else {
-    echo "Error creating database: " . mysqli_error($conn);
+    echo "Error creating database ----> " . mysqli_error($conn);
 }
 
 
