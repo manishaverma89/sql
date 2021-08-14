@@ -51,7 +51,7 @@ if ($numRows>0){
        
     }
 
-//  Usage of where clause to Update Data 
+//  Usage of where clause to Update Data ..
 
 $sql = " UPDATE `table_php_trip` SET `name` = 'NK' WHERE `id` = 5 "; 
 $result = mysqli_query($conn,$sql); //returns true/false for updation 
