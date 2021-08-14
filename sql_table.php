@@ -29,7 +29,7 @@ echo "Great!! connection was successfull<br>";
 }
 
 
-// CREATE a TAble In The DataBase
+// CREATE a TAble In The DataBase..
 
 $sql = "CREATE TABLE table_php_trip ( id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY , name VARCHAR(15) NOT NULL , destination VARCHAR(15) NOT NULL , date DATETIME(6) NOT NULL )";
 
