@@ -34,7 +34,7 @@ echo "Great!! connection was successfull<br>";
 $sql = "CREATE TABLE table_php_trip ( id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY , name VARCHAR(15) NOT NULL , destination VARCHAR(15) NOT NULL , date DATETIME(6) NOT NULL )";
 
 $result = mysqli_query($conn,$sql);
-// check for the databse creation success
+// check for the table creation success
 
 if( $result){
     echo "<br>Table Created Successfully";

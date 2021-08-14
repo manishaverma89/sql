@@ -28,8 +28,8 @@ if (!$conn){
 // echo "Great!! connection was successfull";
 // }
 
-
-$sql = "CREATE DATABASE manishadb_testing2";
+// create a DB
+$sql = "CREATE DATABASE manishadb_testing";
 $result = mysqli_query($conn,$sql);
 
 // check for the databse creation success

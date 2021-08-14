@@ -54,10 +54,10 @@ if ($numRows>0){
 //  Usage of where clause to Update Data 
 
 $sql = " UPDATE `table_php_trip` SET `name` = 'NK' WHERE `id` = 5 "; 
-$result = mysqli_query($conn,$sql);
+$result = mysqli_query($conn,$sql); //returns true/false for updation 
 echo var_dump($result);
 
-$affectedRows = mysqli_affected_rows($conn);
+$affectedRows = mysqli_affected_rows($conn);    //returns the affected rows
 echo "</br>Number of affected rows are: " .$affectedRows;
 
 if ($result){
