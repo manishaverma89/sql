@@ -27,12 +27,12 @@ if (!$conn){
 // else{
 // echo "Great!! connection was successfull";
 // }
-
+ 
 // create a DB
 $sql = "CREATE DATABASE manishadb_testing";
 $result = mysqli_query($conn,$sql);
 
-// check for the databse creation success
+// check for the databse creation success..
 
 if( $result){
     echo "Database Created Successfully";
